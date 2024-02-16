@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objWall",
+  "name": "objBlock",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],

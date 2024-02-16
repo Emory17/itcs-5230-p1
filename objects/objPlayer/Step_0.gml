@@ -10,9 +10,16 @@ if(keyboard_check(ord("D")) and !instance_place(x+movementSpeed, y, objBlock))
 	image_xscale = 1
 }
 
-if(keyboard_check(vk_space) and instance_place(x, y+1, objBlock))
+if(keyboard_check_pressed(vk_space))
 {
-	vspeed = jumpHeight
+	if(instance_place(x, y+1, objBlock))
+	{
+		vspeed = jumpHeight
+	}
+	else if(hasJump){
+		vspeed = jumpHeight
+		hasJump = false
+	}
 }
 
 if(!instance_place(x, y + 1, objBlock))
@@ -22,6 +29,7 @@ if(!instance_place(x, y + 1, objBlock))
 else
 {
 	gravity = 0	
+	hasJump = true
 }
 
 if(mouse_check_button_pressed(mb_left))

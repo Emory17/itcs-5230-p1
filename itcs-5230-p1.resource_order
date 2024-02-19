@@ -18,8 +18,10 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sprBasicAttack","order":2,"path":"sprites/sprBasicAttack/sprBasicAttack.yy",},
+    {"name":"objBasicEnemy","order":4,"path":"objects/objBasicEnemy/objBasicEnemy.yy",},
     {"name":"sprWall","order":1,"path":"sprites/sprWall/sprWall.yy",},
     {"name":"objBlock","order":3,"path":"objects/objBlock/objBlock.yy",},
     {"name":"objBasicAttack","order":2,"path":"objects/objBasicAttack/objBasicAttack.yy",},
+    {"name":"sprBasicEnemy","order":3,"path":"sprites/sprBasicEnemy/sprBasicEnemy.yy",},
   ],
 }

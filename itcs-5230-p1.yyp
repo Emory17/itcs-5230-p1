@@ -36,9 +36,12 @@
   "resources": [
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBasicAttack","path":"sprites/sprBasicAttack/sprBasicAttack.yy",},},
+    {"id":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},},
+    {"id":{"name":"path_basic","path":"paths/path_basic/path_basic.yy",},},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},},
     {"id":{"name":"objBlock","path":"objects/objBlock/objBlock.yy",},},
     {"id":{"name":"objBasicAttack","path":"objects/objBasicAttack/objBasicAttack.yy",},},
+    {"id":{"name":"sprBasicEnemy","path":"sprites/sprBasicEnemy/sprBasicEnemy.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],

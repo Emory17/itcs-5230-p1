@@ -23,5 +23,7 @@
     {"name":"objBlock","order":3,"path":"objects/objBlock/objBlock.yy",},
     {"name":"objBasicAttack","order":2,"path":"objects/objBasicAttack/objBasicAttack.yy",},
     {"name":"sprBasicEnemy","order":3,"path":"sprites/sprBasicEnemy/sprBasicEnemy.yy",},
+    {"name":"damagePlayer","order":1,"path":"scripts/damagePlayer/damagePlayer.yy",},
+    {"name":"sprPlayerDamaged","order":4,"path":"sprites/sprPlayerDamaged/sprPlayerDamaged.yy",},
   ],
 }

@@ -18,10 +18,6 @@ if(instance_exists(objPlayer))
 	//clamp(objBlasterEnemy.x, objBlasterEnemy.x - 100, objBlasterEnemy.x + 100)
 	if(objPlayer.y < objBlasterEnemy.y and objPlayer.x == objBlasterEnemy.x)
 	{
-		
-		show_debug_message("Inside")
 		speedY -= bulletSpeed
-		
-		
 	}
 }

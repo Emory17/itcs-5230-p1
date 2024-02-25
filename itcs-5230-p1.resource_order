@@ -19,6 +19,7 @@
   "ResourceOrderSettings": [
     {"name":"objFlyingEnemy","order":7,"path":"objects/objFlyingEnemy/objFlyingEnemy.yy",},
     {"name":"sprSwordAttack","order":6,"path":"sprites/sprSwordAttack/sprSwordAttack.yy",},
+    {"name":"objFire","order":14,"path":"objects/objFire/objFire.yy",},
     {"name":"sprBasicAttack","order":2,"path":"sprites/sprBasicAttack/sprBasicAttack.yy",},
     {"name":"objBasicEnemy","order":4,"path":"objects/objBasicEnemy/objBasicEnemy.yy",},
     {"name":"objBullet1","order":11,"path":"objects/objBullet1/objBullet1.yy",},
@@ -29,6 +30,7 @@
     {"name":"sprWall","order":1,"path":"sprites/sprWall/sprWall.yy",},
     {"name":"objDrillEnemy","order":12,"path":"objects/objDrillEnemy/objDrillEnemy.yy",},
     {"name":"objBlock","order":3,"path":"objects/objBlock/objBlock.yy",},
+    {"name":"objFlameEnemy","order":13,"path":"objects/objFlameEnemy/objFlameEnemy.yy",},
     {"name":"objBlasterEnemy","order":8,"path":"objects/objBlasterEnemy/objBlasterEnemy.yy",},
     {"name":"objSwordAttack","order":6,"path":"objects/objSwordAttack/objSwordAttack.yy",},
     {"name":"objBullet","order":9,"path":"objects/objBullet/objBullet.yy",},
@@ -40,6 +42,8 @@
     {"name":"sprSwordEnemy","order":5,"path":"sprites/sprSwordEnemy/sprSwordEnemy.yy",},
     {"name":"objTurretEnemy","order":10,"path":"objects/objTurretEnemy/objTurretEnemy.yy",},
     {"name":"damagePlayer","order":1,"path":"scripts/damagePlayer/damagePlayer.yy",},
+    {"name":"sprFire","order":13,"path":"sprites/sprFire/sprFire.yy",},
+    {"name":"sprFlameEnemy","order":12,"path":"sprites/sprFlameEnemy/sprFlameEnemy.yy",},
     {"name":"sprPlayerDamaged","order":4,"path":"sprites/sprPlayerDamaged/sprPlayerDamaged.yy",},
   ],
 }

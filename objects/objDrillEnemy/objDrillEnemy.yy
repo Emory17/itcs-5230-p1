@@ -1,21 +1,21 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objTurretEnemy",
+  "name": "objDrillEnemy",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBlasterEnemy","path":"objects/objBlasterEnemy/objBlasterEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBlasterEnemy/objBlasterEnemy.yy",},"value":"30",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"value":"80",},
   ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
   "parentObjectId": {
-    "name": "objBlasterEnemy",
-    "path": "objects/objBlasterEnemy/objBlasterEnemy.yy",
+    "name": "objBasicEnemy",
+    "path": "objects/objBasicEnemy/objBasicEnemy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -30,11 +30,13 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attackDistance","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"250","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
-    "name": "sprTurretEnemy",
-    "path": "sprites/sprTurretEnemy/sprTurretEnemy.yy",
+    "name": "sprDrillEnemy",
+    "path": "sprites/sprDrillEnemy/sprDrillEnemy.yy",
   },
   "spriteMaskId": null,
   "visible": true,

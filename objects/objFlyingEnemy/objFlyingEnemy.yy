@@ -4,7 +4,9 @@
   "name": "objFlyingEnemy",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"value":"15",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",

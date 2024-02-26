@@ -32,7 +32,8 @@ else
 	hasJump = true
 }
 
-if(mouse_check_button_pressed(mb_left))
+if(mouse_check_button_pressed(mb_left) and canAttack)
 {
 	instance_create_layer(x, y, "Instances", objBasicAttack)
+	canAttack = false
 }

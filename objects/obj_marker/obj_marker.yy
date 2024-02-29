@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objBlock",
+  "name": "obj_marker",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -24,10 +24,10 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "sprWall",
-    "path": "sprites/sprWall/sprWall.yy",
+    "name": "sprBullet",
+    "path": "sprites/sprBullet/sprBullet.yy",
   },
   "spriteMaskId": null,
   "visible": false,

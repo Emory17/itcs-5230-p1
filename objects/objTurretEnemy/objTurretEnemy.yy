@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBlasterEnemy","path":"objects/objBlasterEnemy/objBlasterEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBlasterEnemy/objBlasterEnemy.yy",},"value":"30",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Enemies",
+    "path": "folders/Objects/Enemies.yy",
   },
   "parentObjectId": {
     "name": "objBlasterEnemy",

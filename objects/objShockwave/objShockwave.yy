@@ -10,8 +10,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBullet","path":"objects/objBullet/objBullet.yy",},"propertyId":{"name":"bulletSpeed","path":"objects/objBullet/objBullet.yy",},"value":"4",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "EnemyEffects",
+    "path": "folders/Objects/Enemies/EnemyEffects.yy",
   },
   "parentObjectId": {
     "name": "objBullet",

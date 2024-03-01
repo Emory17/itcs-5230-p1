@@ -11,8 +11,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objSwordAttack","path":"objects/objSwordAttack/objSwordAttack.yy",},"propertyId":{"name":"attack_cooldown","path":"objects/objSwordAttack/objSwordAttack.yy",},"value":"240",},
   ],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "EnemyEffects",
+    "path": "folders/Objects/Enemies/EnemyEffects.yy",
   },
   "parentObjectId": {
     "name": "objSwordAttack",

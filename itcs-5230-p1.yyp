@@ -39,6 +39,7 @@
     {"id":{"name":"objBlasterShot","path":"objects/objBlasterShot/objBlasterShot.yy",},},
     {"id":{"name":"Sprite21","path":"sprites/Sprite21/Sprite21.yy",},},
     {"id":{"name":"objFlyingEnemy","path":"objects/objFlyingEnemy/objFlyingEnemy.yy",},},
+    {"id":{"name":"path_dynamic","path":"paths/path_dynamic/path_dynamic.yy",},},
     {"id":{"name":"sprSwordAttack","path":"sprites/sprSwordAttack/sprSwordAttack.yy",},},
     {"id":{"name":"objFire","path":"objects/objFire/objFire.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
@@ -94,8 +95,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

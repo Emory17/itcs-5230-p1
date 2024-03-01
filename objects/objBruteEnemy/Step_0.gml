@@ -26,7 +26,7 @@ if(instance_exists(objPlayer) and shockwaveAvailable = true)
 		path_end()
 		following_path = false
 		
-		instance_create_layer(x, y, "Instances", objShockwave)
+		
 		
 		//	Jump
 		gravity = 0.25
@@ -39,6 +39,21 @@ if(instance_exists(objPlayer) and shockwaveAvailable = true)
 		{
 			following_path = true
 			gravity = 0
+			
+			/*
+			newX = path_get_x(path_basic, 1) - objBruteEnemy.x
+			
+			if(!mp_linear_path(path_basic, path_get_x(path_basic, 1), objBruteEnemy.y, hsp, false))
+			{
+				path_change_point(path_dynamic, 0, (newX + 760), objBruteEnemy.y, hsp)
+				path_change_point(path_dynamic, 1, newX, objBruteEnemy.y, hsp)
+				path_start(path_dynamic, current_path_speed, path_action_reverse, false)
+				
+			}
+			else
+			{
+				path_start(path_basic, -current_path_speed, path_action_reverse, false)
+			}*/
 			path_start(path_basic, -current_path_speed, path_action_reverse, false)
 		}
 	}
@@ -50,6 +65,6 @@ if (following_path && place_meeting(x + path_speed, y - sprite_height/2, objBloc
 {
 		//	The character is about to collide with a block,
 		//	reverse the path.		
-		show_debug_message("Wall collision detected. Path speed = " + string(path_speed))
+		
 		path_speed *= -1
 }

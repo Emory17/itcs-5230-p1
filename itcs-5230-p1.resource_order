@@ -22,6 +22,7 @@
     {"name":"objBlasterShot","order":24,"path":"objects/objBlasterShot/objBlasterShot.yy",},
     {"name":"Sprite21","order":19,"path":"sprites/Sprite21/Sprite21.yy",},
     {"name":"objFlyingEnemy","order":5,"path":"objects/objFlyingEnemy/objFlyingEnemy.yy",},
+    {"name":"path_dynamic","order":1,"path":"paths/path_dynamic/path_dynamic.yy",},
     {"name":"sprSwordAttack","order":6,"path":"sprites/sprSwordAttack/sprSwordAttack.yy",},
     {"name":"objFire","order":4,"path":"objects/objFire/objFire.yy",},
     {"name":"sprBasicAttack","order":2,"path":"sprites/sprBasicAttack/sprBasicAttack.yy",},

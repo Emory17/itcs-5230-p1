@@ -45,7 +45,7 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBasicAttack","path":"sprites/sprBasicAttack/sprBasicAttack.yy",},},
     {"id":{"name":"objPowerUpControl","path":"objects/objPowerUpControl/objPowerUpControl.yy",},},
-    {"id":{"name":"objChargeBlast","path":"sprites/objChargeBlast/objChargeBlast.yy",},},
+    {"id":{"name":"sprChargeBlast","path":"sprites/sprChargeBlast/sprChargeBlast.yy",},},
     {"id":{"name":"objShockwave","path":"objects/objShockwave/objShockwave.yy",},},
     {"id":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},},
     {"id":{"name":"objBullet1","path":"objects/objBullet1/objBullet1.yy",},},

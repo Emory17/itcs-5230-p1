@@ -27,6 +27,7 @@
     {"name":"objFire","order":4,"path":"objects/objFire/objFire.yy",},
     {"name":"sprBasicAttack","order":2,"path":"sprites/sprBasicAttack/sprBasicAttack.yy",},
     {"name":"objPowerUpControl","order":18,"path":"objects/objPowerUpControl/objPowerUpControl.yy",},
+    {"name":"objChargeBlast","order":24,"path":"sprites/objChargeBlast/objChargeBlast.yy",},
     {"name":"objBullet1","order":3,"path":"objects/objBullet1/objBullet1.yy",},
     {"name":"obj_marker","order":17,"path":"objects/obj_marker/obj_marker.yy",},
     {"name":"sprBruteEnemy","order":14,"path":"sprites/sprBruteEnemy/sprBruteEnemy.yy",},

@@ -45,6 +45,7 @@
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBasicAttack","path":"sprites/sprBasicAttack/sprBasicAttack.yy",},},
     {"id":{"name":"objPowerUpControl","path":"objects/objPowerUpControl/objPowerUpControl.yy",},},
+    {"id":{"name":"objChargeBlast","path":"sprites/objChargeBlast/objChargeBlast.yy",},},
     {"id":{"name":"objShockwave","path":"objects/objShockwave/objShockwave.yy",},},
     {"id":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},},
     {"id":{"name":"objBullet1","path":"objects/objBullet1/objBullet1.yy",},},
@@ -95,8 +96,8 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

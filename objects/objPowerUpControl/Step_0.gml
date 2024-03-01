@@ -17,6 +17,12 @@ if(mouse_check_button_pressed(mb_left) and objPlayer.canAttack and global.curren
 	alarm[0] = 15;
 }
 
+if(mouse_check_button(mb_left) and objPlayer.canAttack and global.currentPower = powerUp.blast)
+{
+	instance_create_layer(x, y, "Instances", objBlasterShot)
+	objPlayer.canAttack = false
+}
+
 
 
 

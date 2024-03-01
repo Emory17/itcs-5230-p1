@@ -5,4 +5,4 @@ y = objPlayer.y
 image_angle = objBlaster.image_angle;
 direction = objBlaster.image_angle + 90;
 speed = 9;
-alarm[0] = 60
+alarm[0] = 75

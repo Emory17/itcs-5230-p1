@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objBlock",
+  "name": "objThroughBlock",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
@@ -11,7 +11,10 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "objBlock",
+    "path": "objects/objBlock/objBlock.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -26,11 +29,11 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "sprWall",
-    "path": "sprites/sprWall/sprWall.yy",
+    "name": "sprThroughBlock",
+    "path": "sprites/sprThroughBlock/sprThroughBlock.yy",
   },
   "spriteMaskId": null,
-  "visible": false,
+  "visible": true,
 }

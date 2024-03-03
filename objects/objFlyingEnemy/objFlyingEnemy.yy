@@ -2,7 +2,11 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "objFlyingEnemy",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"value":"15",},
@@ -12,8 +16,8 @@
     "path": "folders/Objects/Enemies.yy",
   },
   "parentObjectId": {
-    "name": "objSwordEnemy",
-    "path": "objects/objSwordEnemy/objSwordEnemy.yy",
+    "name": "objBasicEnemy",
+    "path": "objects/objBasicEnemy/objBasicEnemy.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,
@@ -28,7 +32,9 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attackDistance","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"240","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "sprFlyingEnemy",

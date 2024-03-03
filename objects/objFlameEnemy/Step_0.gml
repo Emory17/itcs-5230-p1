@@ -1,12 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_exists(objPlayer))
+if(instance_exists(objPlayer) and fireReady == true)
 {
 	
 	if(distance_to_object(objPlayer) < attackDistance)
 	{
+		fireReady = false
+		alarm[0] = 60
 		instance_create_layer(x, y, "Instances", objFire)
+		
+		
 	}
 }
 

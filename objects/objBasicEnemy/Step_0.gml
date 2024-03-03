@@ -5,3 +5,4 @@ if (place_meeting(x + path_speed, y - sprite_height/2, objBlock))
 		
 		path_speed *= -1
 }
+

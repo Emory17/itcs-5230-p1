@@ -7,3 +7,8 @@ if(power1 = 2) {
 	instance_destroy()
 }
 
+if(power1 = 3) {
+	global.currentPower = powerUp.drill
+	instance_destroy()
+}
+

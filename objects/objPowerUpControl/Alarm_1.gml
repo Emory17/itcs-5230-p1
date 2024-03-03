@@ -1,0 +1,3 @@
+objPlayer.canAttack = true;
+
+

@@ -16,9 +16,11 @@ if(canMove and !blocking) {
 		if(instance_place(x, y+1, objBlock))
 		{
 			vspeed = jumpHeight
+			audio_play_sound(playerJump,1,false);
 		}
 		else if(hasJump){
 			vspeed = jumpHeight
+			audio_play_sound(playerDoubleJump,1,false);
 			hasJump = false
 		}
 	}
@@ -36,6 +38,7 @@ if(canMove and !blocking) {
 	if(mouse_check_button_pressed(mb_left) and canAttack and global.currentPower = powerUp.none)
 	{
 		instance_create_layer(x, y, "Instances", objBasicAttack)
+		audio_play_sound(playerNoneMelee,1,false);
 		canAttack = false
 	}
 }

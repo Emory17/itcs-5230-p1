@@ -1,0 +1,3 @@
+hitobject = noone;
+
+

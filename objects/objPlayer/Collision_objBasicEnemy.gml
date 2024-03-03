@@ -1,6 +1,6 @@
 if (objPowerUpControl.drilling)
 {
-	damageEnemy(other,30,self)
+	damageEnemy(other,40,self)
 	other.alarm[9] = 10;
 }
 else

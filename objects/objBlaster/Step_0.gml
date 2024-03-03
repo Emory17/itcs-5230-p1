@@ -1,6 +1,7 @@
-if (global.currentPower = powerUp.blast)
+if (global.currentPower = powerUp.blast || global.currentPower = powerUp.fire)
 {
 	visible = true;
+	
 }
 else
 {
@@ -30,3 +31,4 @@ if(instance_exists(objPlayer))
 	x = objPlayer.x
 	y = objPlayer.y
 }
+

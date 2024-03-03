@@ -117,3 +117,29 @@ if(drilling and afterImageTime % 2 = 0)
 {
 	instance_create_layer(objPlayer.x, objPlayer.y, "Instances", objDrillAfterImage)
 }
+
+if(mouse_check_button(mb_left) and objPlayer.canAttack and global.currentPower = powerUp.fire and fuel > 0)
+{
+	instance_create_layer(x, y, "Instances", objFireBlast)
+	fuel--;
+}
+
+if(!mouse_check_button(mb_left))
+{
+	fuel += 2;
+	if(fuel > 120) then fuel = 120;
+}
+
+if(mouse_check_button_pressed(mb_left) and objPlayer.canAttack and global.currentPower = powerUp.fire)
+{
+	audio_play_sound(playerFlame,1,false);
+}
+
+
+if((mouse_check_button_released(mb_left) and objPlayer.canAttack and global.currentPower = powerUp.fire)
+|| fuel < 1)
+{
+	audio_stop_sound(playerFlame);
+}
+
+

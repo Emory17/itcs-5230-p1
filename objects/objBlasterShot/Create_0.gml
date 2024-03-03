@@ -8,4 +8,5 @@ speed = 9;
 
 bigShot = false
 	
-alarm[0] = 75;
+alarm[0] = 60;
+

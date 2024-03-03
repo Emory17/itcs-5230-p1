@@ -41,4 +41,7 @@ if(canMove and !blocking) {
 		audio_play_sound(playerNoneMelee,1,false);
 		canAttack = false
 	}
+
 }
+
+	

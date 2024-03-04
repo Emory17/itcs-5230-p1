@@ -41,21 +41,60 @@ if(instance_exists(objPlayer) and shockwaveAvailable = true)
 			following_path = true
 			gravity = 0
 			
-			
+			/*
 			newX = path_get_x(path_basic, 1) - objBruteEnemy.x
-			
-			if(!mp_linear_path(path_basic, path_get_x(path_basic, 1), objBruteEnemy.y, hsp, false))
+			if(newX != path_get_x(path_basic, 1) or newX != path_get_x(path_basic, 0))
 			{
-				path_change_point(path_dynamic, 0, (newX + 760), objBruteEnemy.y, hsp)
-				path_change_point(path_dynamic, 1, newX, objBruteEnemy.y, hsp)
-				path_start(path_dynamic, current_path_speed, path_action_reverse, false)
+				
+				if(current_path_speed > 0)
+				{
+					if(x != 1080)
+					{
+						
+						x += current_path_speed
+						if(place_meeting(x + path_speed, y - sprite_height/2, objBlock))
+						{
+							path_speed *= -1
+						}
+					}
+					
+					if(x == 1080)
+					{
+						
+						following_path = true
+						path_start(path_basic, current_path_speed, path_action_reverse, false)
+					}
+					
+				}
+				if(current_path_speed < 0)
+				{
+					if(x != 320)
+					{
+						
+						x += current_path_speed
+						if(place_meeting(x + path_speed, y - sprite_height/2, objBlock))
+						{
+							path_speed *= -1
+						}
+						
+					}
+					
+					if(x == 320)
+					{
+						
+						following_path = true
+						path_start(path_basic, -current_path_speed, path_action_reverse, false)
+					}
+					
+				}
 				
 			}
 			else
 			{
+				following_path = true
 				path_start(path_basic, -current_path_speed, path_action_reverse, false)
-			}
-			//path_start(path_basic, -current_path_speed, path_action_reverse, false)
+			}*/
+			path_start(path_basic, -current_path_speed, path_action_reverse, false)
 		}
 	}
 }

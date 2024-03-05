@@ -25,14 +25,14 @@ if(canMove and !blocking) {
 		}
 	}
 	
-	if(!instance_place(x, y + 1, objBlock))
-	{
-		gravity = 0.25
-	}
-	else
+	if(instance_place(x, y + 1, objBlock) && !instance_place(x, y, objBlock))
 	{
 		gravity = 0	
 		hasJump = true
+	}
+	else
+	{
+		gravity = 0.25
 	}
 	
 	if(mouse_check_button_pressed(mb_left) and canAttack and global.currentPower = powerUp.none)

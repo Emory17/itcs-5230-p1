@@ -35,5 +35,5 @@
     "path": "sprites/sprThroughBlock/sprThroughBlock.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

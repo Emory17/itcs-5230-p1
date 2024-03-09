@@ -1,0 +1,3 @@
+powerUpSprite = 0;
+
+

@@ -1,4 +1,4 @@
-totalHealth = 100
+totalHealth = 90
 gravity_direction = 270
 canAttack = true;
 enum powerUp {

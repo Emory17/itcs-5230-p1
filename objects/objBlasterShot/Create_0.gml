@@ -9,4 +9,5 @@ speed = 9;
 bigShot = false
 	
 alarm[0] = 60;
-
+visible = false;
+alarm[1] = 2;

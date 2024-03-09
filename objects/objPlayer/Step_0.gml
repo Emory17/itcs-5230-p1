@@ -3,12 +3,26 @@ if(canMove and !blocking) {
 	{
 		x += -movementSpeed
 		image_xscale = -1
+		if (instance_place(x, y+1, objBlock)){
+			sprite_index = sprPlayerMoving
+		}
+		else {
+		sprite_index = sprPlayer
+		}
 	}
-	
-	if(keyboard_check(ord("D")) and !instance_place(x+movementSpeed, y, objBlock))
+	else if(keyboard_check(ord("D")) and !instance_place(x+movementSpeed, y, objBlock))
 	{
 		x += movementSpeed
 		image_xscale = 1
+		if (instance_place(x, y+1, objBlock)){
+			sprite_index = sprPlayerMoving
+		}
+		else {
+		sprite_index = sprPlayer
+		}
+	}
+	else {
+		sprite_index = sprPlayer
 	}
 	
 	if(keyboard_check_pressed(vk_space))
@@ -42,6 +56,11 @@ if(canMove and !blocking) {
 		canAttack = false
 	}
 
+}
+
+if(invincible and !objPowerUpControl.drilling)
+{
+	sprite_index = sprPlayerDamaged
 }
 
 	

@@ -8,3 +8,5 @@ direction = objBlaster.image_angle + 80 + variation;
 speed = 8;
 sprite_set_speed(sprite_index, 15, spritespeed_framespersecond)
 alarm[0] = 35;
+visible = false;
+alarm[1] = 2;

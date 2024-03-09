@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprBlaster",
-    "path": "sprites/sprBlaster/sprBlaster.yy",
+    "name": "sprPunch",
+    "path": "sprites/sprPunch/sprPunch.yy",
   },
   "spriteMaskId": null,
   "visible": true,

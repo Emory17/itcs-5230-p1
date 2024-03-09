@@ -4,7 +4,7 @@
   "name": "sprFlamethrower",
   "bbox_bottom": 16,
   "bbox_left": 12,
-  "bbox_right": 24,
+  "bbox_right": 19,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

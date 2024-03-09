@@ -1,14 +1,13 @@
 if (keyboard_check(ord("E")))
 {
 	audio_play_sound(playerPickUp, 1, false)
-	instance_destroy(objBlaster)
 	if(power1 = 1) {
 		global.currentPower = powerUp.sword
 		instance_destroy()
 	}
 	if(power1 = 2) {
 		global.currentPower = powerUp.blast
-		object_set_sprite(objBlaster, sprBlaster)
+		objBlaster.sprite_index = sprBlaster
 		instance_destroy()
 	}
 	
@@ -19,9 +18,7 @@ if (keyboard_check(ord("E")))
 	
 	if(power1 = 4) {
 		global.currentPower = powerUp.fire
-		object_set_sprite(objBlaster, sprFlamethrower)
+		objBlaster.sprite_index = sprFlamethrower
 		instance_destroy()
 	}
-	
-	instance_create_depth(x,y,-1,objBlaster)
 }

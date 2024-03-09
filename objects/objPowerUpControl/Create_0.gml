@@ -5,5 +5,6 @@ chargeSize = 0
 drilling = false;
 afterImageTime = 0;
 cooldown = 0
+jumpFire = false;
 
 

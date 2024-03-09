@@ -1,11 +1,11 @@
 if(mouse_check_button(mb_right)){
 	if (facing = 1) {
 		x = objPlayer.x + 20
-		y = objPlayer.y
+		y = objPlayer.y 
 	}
 	if facing = -1 {
 		x = objPlayer.x - 20
-		y = objPlayer.y
+		y = objPlayer.y 
 	}
 }
 else{

@@ -17,3 +17,7 @@ if (fuel < 120 and global.currentPower = powerUp.fire)
 {
 	draw_sprite_ext(sprGuage, 1, objPlayer.x - 40, objPlayer.y - 10, 1, fuel / - 80, 0, c_white,1)
 }
+
+if (jumpFire) {
+	draw_sprite_ext(sprJump, 0, objPlayer.x, objPlayer.y, objPlayer.image_xscale, 1, 0, c_white, 1)
+}

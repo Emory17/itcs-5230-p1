@@ -36,6 +36,8 @@ if(canMove and !blocking) {
 			vspeed = jumpHeight
 			audio_play_sound(playerDoubleJump,1,false);
 			hasJump = false
+			objPowerUpControl.jumpFire = true;
+			objPowerUpControl.alarm[4] = 30;
 		}
 	}
 	

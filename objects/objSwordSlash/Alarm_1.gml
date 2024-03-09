@@ -1,0 +1,3 @@
+objBlaster.visible = true;
+
+

@@ -4,7 +4,7 @@
 
 
 
-if room = Room2 {
+if room = MainRoom {
 current_song = ship_level;
 }
 

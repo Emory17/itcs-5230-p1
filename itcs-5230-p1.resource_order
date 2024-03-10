@@ -103,6 +103,7 @@
     {"name":"objMovingBlock","order":25,"path":"objects/objMovingBlock/objMovingBlock.yy",},
     {"name":"damagePlayer","order":1,"path":"scripts/damagePlayer/damagePlayer.yy",},
     {"name":"sprLaser","order":31,"path":"sprites/sprLaser/sprLaser.yy",},
+    {"name":"menu","order":2,"path":"sounds/menu/menu.yy",},
     {"name":"objSwordSlash","order":19,"path":"objects/objSwordSlash/objSwordSlash.yy",},
     {"name":"sprFire","order":13,"path":"sprites/sprFire/sprFire.yy",},
     {"name":"sprFlamethrower","order":28,"path":"sprites/sprFlamethrower/sprFlamethrower.yy",},

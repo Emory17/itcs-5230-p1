@@ -130,6 +130,7 @@
     {"id":{"name":"sprLaser","path":"sprites/sprLaser/sprLaser.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
     {"id":{"name":"sprPlayer","path":"sprites/sprPlayer/sprPlayer.yy",},},
+    {"id":{"name":"menu","path":"sounds/menu/menu.yy",},},
     {"id":{"name":"objSwordSlash","path":"objects/objSwordSlash/objSwordSlash.yy",},},
     {"id":{"name":"sprFire","path":"sprites/sprFire/sprFire.yy",},},
     {"id":{"name":"sprFlamethrower","path":"sprites/sprFlamethrower/sprFlamethrower.yy",},},

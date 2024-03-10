@@ -5,3 +5,4 @@ if (global.currentPower = powerUp.drill) then powerUpSprite = 3
 if (global.currentPower = powerUp.fire) then powerUpSprite = 4
 
 
+

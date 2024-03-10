@@ -38,63 +38,36 @@ if(instance_exists(objPlayer) and shockwaveAvailable = true)
 		// This code was written by the professor as a means to help fix a pathing issue
 		if (following_path == false)
 		{
-			following_path = true
-			gravity = 0
 			
-			/*
-			newX = path_get_x(path_basic, 1) - objBruteEnemy.x
-			if(newX != path_get_x(path_basic, 1) or newX != path_get_x(path_basic, 0))
+			gravity = 0
+			if(current_path_speed > 0)
 			{
-				
-				if(current_path_speed > 0)
-				{
-					if(x != 1080)
-					{
-						
-						x += current_path_speed
-						if(place_meeting(x + path_speed, y - sprite_height/2, objBlock))
-						{
-							path_speed *= -1
-						}
-					}
-					
-					if(x == 1080)
-					{
-						
-						following_path = true
-						path_start(path_basic, current_path_speed, path_action_reverse, false)
-					}
-					
+				if(!instance_place(x - hsp, y, objBlock))
+				{	
+					x += -hsp
 				}
-				if(current_path_speed < 0)
+				else
 				{
-					if(x != 320)
-					{
-						
-						x += current_path_speed
-						if(place_meeting(x + path_speed, y - sprite_height/2, objBlock))
-						{
-							path_speed *= -1
-						}
-						
-					}
-					
-					if(x == 320)
-					{
-						
-						following_path = true
-						path_start(path_basic, -current_path_speed, path_action_reverse, false)
-					}
-					
+					following_path = true
+					path_start(path_basic, current_path_speed, path_action_reverse, false)
 				}
-				
 			}
-			else
+			if(current_path_speed < 0)
 			{
-				following_path = true
-				path_start(path_basic, -current_path_speed, path_action_reverse, false)
-			}*/
-			path_start(path_basic, -current_path_speed, path_action_reverse, false)
+				if(!instance_place(x + hsp, y, objBlock))
+				{
+					x += hsp
+					
+				}
+				else
+				{ 
+					x = x + current_path_speed
+					following_path = true
+					path_change_point(path_dynamic, 0, objBruteEnemy.x, objBruteEnemy.y, 100)
+					path_change_point(path_dynamic, 1, objBruteEnemy.x - 760, objBruteEnemy.y, 100)
+					path_start(path_dynamic, -current_path_speed, path_action_reverse, false)
+				}
+			}
 		}
 	}
 }

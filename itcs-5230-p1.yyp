@@ -40,7 +40,6 @@
     {"id":{"name":"sprFireBlast","path":"sprites/sprFireBlast/sprFireBlast.yy",},},
     {"id":{"name":"objBlasterShot","path":"objects/objBlasterShot/objBlasterShot.yy",},},
     {"id":{"name":"objFlyingEnemy","path":"objects/objFlyingEnemy/objFlyingEnemy.yy",},},
-    {"id":{"name":"path_dynamic","path":"paths/path_dynamic/path_dynamic.yy",},},
     {"id":{"name":"playerHit","path":"sounds/playerHit/playerHit.yy",},},
     {"id":{"name":"enemyDies","path":"sounds/enemyDies/enemyDies.yy",},},
     {"id":{"name":"sprSwordAttack","path":"sprites/sprSwordAttack/sprSwordAttack.yy",},},
@@ -80,6 +79,7 @@
     {"id":{"name":"shiptiles","path":"sprites/shiptiles/shiptiles.yy",},},
     {"id":{"name":"sprSwordHand","path":"sprites/sprSwordHand/sprSwordHand.yy",},},
     {"id":{"name":"sprBlasterEnemy","path":"sprites/sprBlasterEnemy/sprBlasterEnemy.yy",},},
+    {"id":{"name":"path_dynamic","path":"paths/path_dynamic/path_dynamic.yy",},},
     {"id":{"name":"sprFlyingEnemy","path":"sprites/sprFlyingEnemy/sprFlyingEnemy.yy",},},
     {"id":{"name":"objHudControl","path":"objects/objHudControl/objHudControl.yy",},},
     {"id":{"name":"objBruteEnemy","path":"objects/objBruteEnemy/objBruteEnemy.yy",},},
@@ -145,10 +145,10 @@
     {"id":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
     {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
-    {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [

@@ -1,4 +1,4 @@
-image_xscale = objPlayer.image_xscale
+image_xscale = objSwordEnemy.image_xscale
 image_yscale = 1.5
 facing = objPlayer.image_xscale
 objPlayer.canAttack = false

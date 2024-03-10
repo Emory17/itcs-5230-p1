@@ -4,5 +4,5 @@ if (place_meeting(x + path_speed, y - sprite_height/2, objBlock))
 		//	reverse the path.		
 		
 		path_speed *= -1
+		image_xscale = image_xscale * -1
 }
-

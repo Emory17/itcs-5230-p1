@@ -2,6 +2,6 @@ draw_sprite_ext(sprHPBar, (objPlayer.totalHealth / 15) - 1 , view_get_xport(0) +
 
 draw_sprite_ext(sprCurrentPower, powerUpSprite , view_get_xport(0) + 400, view_get_yport(0) + 130, 1.5, 1.5, 0, c_white, 1)
 
-
+draw_text(view_get_xport(0) + 170, view_get_yport(0) + 200, "Score: " + string(objPlayer.totalScore))
 
 

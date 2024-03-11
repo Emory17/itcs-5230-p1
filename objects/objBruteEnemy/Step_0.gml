@@ -1,15 +1,15 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_place(x + 32, y, objPlayer) and !instance_place(x - 1, y, objPlayer))
+if(instance_place(x + 32, y, objPlayer) and !instance_place(x - 1, y, objPlayer) and image_xscale > 0)
 {
-	image_xscale = objPlayer.image_xscale
+	image_xscale = 1
 	instance_create_layer(x, y, "Instances", objSwordAttack)
 }
 
-if(instance_place(x - 32, y, objPlayer) and !instance_place(x + 1, y, objPlayer))
+if(instance_place(x - 32, y, objPlayer) and !instance_place(x + 1, y, objPlayer) and image_xscale < 0)
 {
-	image_xscale = objPlayer.image_xscale * -1
+	image_xscale = -1
 	instance_create_layer(x, y, "Instances", objSwordAttack)
 }
 

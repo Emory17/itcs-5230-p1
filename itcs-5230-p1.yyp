@@ -47,6 +47,7 @@
     {"id":{"name":"sprPunch","path":"sprites/sprPunch/sprPunch.yy",},},
     {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
     {"id":{"name":"sprBasicAttack","path":"sprites/sprBasicAttack/sprBasicAttack.yy",},},
+    {"id":{"name":"ScoreFont","path":"fonts/ScoreFont/ScoreFont.yy",},},
     {"id":{"name":"playerDoubleJump","path":"sounds/playerDoubleJump/playerDoubleJump.yy",},},
     {"id":{"name":"objPowerUpControl","path":"objects/objPowerUpControl/objPowerUpControl.yy",},},
     {"id":{"name":"sprChargeBlast","path":"sprites/sprChargeBlast/sprChargeBlast.yy",},},
@@ -146,8 +147,8 @@
     {"id":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
+    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
   ],

@@ -14,6 +14,7 @@ if(instance_exists(objPlayer) and fireReady == true)
 	}
 }
 
+// This code was written by the professor as a means to help fix a pathing issue
 if (place_meeting(x + path_speed, y - sprite_height/2, objBlock))
 {
 		//	The character is about to collide with a block,

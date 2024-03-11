@@ -12,3 +12,4 @@ global.currentPower = powerUp.none
 canMove = true;
 blocking = false;
 instance_create_depth(x, y, -1, objBlaster)
+totalScore = 0

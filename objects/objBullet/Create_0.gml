@@ -3,6 +3,7 @@
 
 speedX = 0
 speedY = 0
+visible = false;
 
 if(instance_exists(objPlayer))
 {
@@ -21,3 +22,5 @@ if(instance_exists(objPlayer))
 		speedY -= bulletSpeed
 	}
 }
+alarm[0] = 60;
+alarm[1] = 1;

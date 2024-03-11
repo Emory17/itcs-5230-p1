@@ -114,6 +114,7 @@
     {"name":"objBomb","order":5,"path":"objects/objBomb/objBomb.yy",},
     {"name":"bg1","order":17,"path":"sprites/bg1/bg1.yy",},
     {"name":"spr_door","order":34,"path":"sprites/spr_door/spr_door.yy",},
+    {"name":"sprBlasterEnemyCharge","order":42,"path":"sprites/sprBlasterEnemyCharge/sprBlasterEnemyCharge.yy",},
     {"name":"sprBomb","order":32,"path":"sprites/sprBomb/sprBomb.yy",},
     {"name":"sprPlayerDamaged","order":4,"path":"sprites/sprPlayerDamaged/sprPlayerDamaged.yy",},
     {"name":"playerPickUp","order":13,"path":"sounds/playerPickUp/playerPickUp.yy",},

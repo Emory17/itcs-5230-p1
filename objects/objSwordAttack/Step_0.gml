@@ -1,9 +1,9 @@
 
-if(instance_exists(objSwordEnemy))
+if(instance_exists(senemy))
 {
 	
-	x = objSwordEnemy.x
-	y = objSwordEnemy.y
+	x = senemy.x
+	y = senemy.y
 	
 }
 else

@@ -4,13 +4,19 @@
 if(instance_place(x + 32, y, objPlayer) and !instance_place(x - 1, y, objPlayer) and image_xscale > 0)
 {
 	image_xscale = 1
-	instance_create_layer(x, y, "Instances", objSwordAttack)
+	instance_create_layer(x, y, "Instances", objSwordAttack,
+	{
+		senemy : self.id
+	})
 }
 
 if(instance_place(x - 32, y, objPlayer) and !instance_place(x + 1, y, objPlayer) and image_xscale < 0)
 {
 	image_xscale = -1
-	instance_create_layer(x, y, "Instances", objSwordAttack)
+	instance_create_layer(x, y, "Instances", objSwordAttack,
+	{
+		senemy : self.id
+	})
 }
 
 if (place_meeting(x + path_speed, y - sprite_height/2, objBlock))

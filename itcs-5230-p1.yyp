@@ -76,6 +76,7 @@
     {"id":{"name":"sprJump","path":"sprites/sprJump/sprJump.yy",},},
     {"id":{"name":"sprSwordEnemyNeutral","path":"sprites/sprSwordEnemyNeutral/sprSwordEnemyNeutral.yy",},},
     {"id":{"name":"sprExplosion","path":"sprites/sprExplosion/sprExplosion.yy",},},
+    {"id":{"name":"shdrFire","path":"shaders/shdrFire/shdrFire.yy",},},
     {"id":{"name":"sprBruteEnemy","path":"sprites/sprBruteEnemy/sprBruteEnemy.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
     {"id":{"name":"enemyHit","path":"sounds/enemyHit/enemyHit.yy",},},
@@ -160,8 +161,8 @@
     {"id":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
+    {"roomId":{"name":"TitleScreen","path":"rooms/TitleScreen/TitleScreen.yy",},},
     {"roomId":{"name":"BossRoom","path":"rooms/BossRoom/BossRoom.yy",},},
     {"roomId":{"name":"MainRoom","path":"rooms/MainRoom/MainRoom.yy",},},
     {"roomId":{"name":"LoseRoom","path":"rooms/LoseRoom/LoseRoom.yy",},},

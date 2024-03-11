@@ -82,3 +82,4 @@ if (following_path && place_meeting(x + path_speed, y - sprite_height/2, objBloc
 		path_speed *= -1
 		image_xscale = image_xscale * -1
 }
+

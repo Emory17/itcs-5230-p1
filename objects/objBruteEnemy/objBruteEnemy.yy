@@ -12,7 +12,7 @@
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"value":"150",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"objBasicEnemy","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"propertyId":{"name":"totalHealth","path":"objects/objBasicEnemy/objBasicEnemy.yy",},"value":"500",},
   ],
   "parent": {
     "name": "Enemies",

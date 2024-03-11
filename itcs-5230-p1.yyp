@@ -84,6 +84,7 @@
     {"id":{"name":"sprBlasterEnemy","path":"sprites/sprBlasterEnemy/sprBlasterEnemy.yy",},},
     {"id":{"name":"path_dynamic","path":"paths/path_dynamic/path_dynamic.yy",},},
     {"id":{"name":"sprFlyingEnemy","path":"sprites/sprFlyingEnemy/sprFlyingEnemy.yy",},},
+    {"id":{"name":"sprLaserShooterActive","path":"sprites/sprLaserShooterActive/sprLaserShooterActive.yy",},},
     {"id":{"name":"objHudControl","path":"objects/objHudControl/objHudControl.yy",},},
     {"id":{"name":"objBruteEnemy","path":"objects/objBruteEnemy/objBruteEnemy.yy",},},
     {"id":{"name":"boss_level","path":"sounds/boss_level/boss_level.yy",},},

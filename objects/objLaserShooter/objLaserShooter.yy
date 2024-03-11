@@ -28,14 +28,14 @@
   "physicsShapePoints": [],
   "physicsStartAwake": true,
   "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"uptime","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"50","varType":0,},
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"downtime","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"250","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"uptime","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"60","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"downtime","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"210","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"lscale","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"10","varType":0,},
   ],
   "solid": false,
   "spriteId": {
-    "name": "sprLaserShooter",
-    "path": "sprites/sprLaserShooter/sprLaserShooter.yy",
+    "name": "sprLaserShooterActive",
+    "path": "sprites/sprLaserShooterActive/sprLaserShooterActive.yy",
   },
   "spriteMaskId": null,
   "visible": true,

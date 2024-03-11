@@ -61,6 +61,7 @@
     {"name":"sprBlasterEnemy","order":8,"path":"sprites/sprBlasterEnemy/sprBlasterEnemy.yy",},
     {"name":"path_dynamic","order":1,"path":"paths/path_dynamic/path_dynamic.yy",},
     {"name":"sprFlyingEnemy","order":7,"path":"sprites/sprFlyingEnemy/sprFlyingEnemy.yy",},
+    {"name":"sprLaserShooterActive","order":48,"path":"sprites/sprLaserShooterActive/sprLaserShooterActive.yy",},
     {"name":"objHudControl","order":34,"path":"objects/objHudControl/objHudControl.yy",},
     {"name":"objBruteEnemy","order":2,"path":"objects/objBruteEnemy/objBruteEnemy.yy",},
     {"name":"boss_level","order":1,"path":"sounds/boss_level/boss_level.yy",},

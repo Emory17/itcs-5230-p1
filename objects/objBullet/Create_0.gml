@@ -7,17 +7,17 @@ visible = false;
 
 if(instance_exists(objPlayer))
 {
-	if(objPlayer.x < objBlasterEnemy.x)
+	if(objPlayer.x < benemy.x)
 	{
 		speedX -= bulletSpeed
 	}
-	if(objPlayer.x > objBlasterEnemy.x)
+	if(objPlayer.x > benemy.x)
 	{
 		speedX += bulletSpeed
 	}
 	//clamp(objPlayer.x, objPlayer.x - 100, objPlayer.x + 100)
 	//clamp(objBlasterEnemy.x, objBlasterEnemy.x - 100, objBlasterEnemy.x + 100)
-	if(objPlayer.y < objBlasterEnemy.y and objPlayer.x == objBlasterEnemy.x)
+	if(objPlayer.y < benemy.y and objPlayer.x == benemy.x)
 	{
 		speedY -= bulletSpeed
 	}

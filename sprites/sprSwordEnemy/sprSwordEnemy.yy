@@ -4,7 +4,7 @@
   "name": "sprSwordEnemy",
   "bbox_bottom": 63,
   "bbox_left": 18,
-  "bbox_right": 57,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,

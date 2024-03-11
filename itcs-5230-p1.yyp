@@ -38,6 +38,7 @@
   },
   "resources": [
     {"id":{"name":"sprFireBlast","path":"sprites/sprFireBlast/sprFireBlast.yy",},},
+    {"id":{"name":"sprTurretBarrel","path":"sprites/sprTurretBarrel/sprTurretBarrel.yy",},},
     {"id":{"name":"objBlasterShot","path":"objects/objBlasterShot/objBlasterShot.yy",},},
     {"id":{"name":"objFlyingEnemy","path":"objects/objFlyingEnemy/objFlyingEnemy.yy",},},
     {"id":{"name":"playerHit","path":"sounds/playerHit/playerHit.yy",},},
@@ -71,6 +72,7 @@
     {"id":{"name":"playerJump","path":"sounds/playerJump/playerJump.yy",},},
     {"id":{"name":"path_basic","path":"paths/path_basic/path_basic.yy",},},
     {"id":{"name":"sprJump","path":"sprites/sprJump/sprJump.yy",},},
+    {"id":{"name":"sprSwordEnemyNeutral","path":"sprites/sprSwordEnemyNeutral/sprSwordEnemyNeutral.yy",},},
     {"id":{"name":"sprExplosion","path":"sprites/sprExplosion/sprExplosion.yy",},},
     {"id":{"name":"sprBruteEnemy","path":"sprites/sprBruteEnemy/sprBruteEnemy.yy",},},
     {"id":{"name":"Sprite8","path":"sprites/Sprite8/Sprite8.yy",},},
@@ -147,6 +149,7 @@
     {"id":{"name":"sprBlasterEnemyCharge","path":"sprites/sprBlasterEnemyCharge/sprBlasterEnemyCharge.yy",},},
     {"id":{"name":"sprBomb","path":"sprites/sprBomb/sprBomb.yy",},},
     {"id":{"name":"sprPlayerDamaged","path":"sprites/sprPlayerDamaged/sprPlayerDamaged.yy",},},
+    {"id":{"name":"objTurretBarrel","path":"objects/objTurretBarrel/objTurretBarrel.yy",},},
     {"id":{"name":"playerPickUp","path":"sounds/playerPickUp/playerPickUp.yy",},},
     {"id":{"name":"TestingRoom","path":"rooms/TestingRoom/TestingRoom.yy",},},
   ],

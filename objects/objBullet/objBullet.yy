@@ -33,6 +33,7 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"attackDistance","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"250","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"bulletSpeed","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"6","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"benemy","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"objBlasterEnemy","varType":5,},
   ],
   "solid": false,
   "spriteId": {

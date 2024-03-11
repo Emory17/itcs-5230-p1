@@ -21,6 +21,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"sprFireBlast","order":29,"path":"sprites/sprFireBlast/sprFireBlast.yy",},
+    {"name":"sprTurretBarrel","order":47,"path":"sprites/sprTurretBarrel/sprTurretBarrel.yy",},
     {"name":"objBlasterShot","order":24,"path":"objects/objBlasterShot/objBlasterShot.yy",},
     {"name":"objFlyingEnemy","order":5,"path":"objects/objFlyingEnemy/objFlyingEnemy.yy",},
     {"name":"playerHit","order":1,"path":"sounds/playerHit/playerHit.yy",},
@@ -49,6 +50,7 @@
     {"name":"obj_marker","order":17,"path":"objects/obj_marker/obj_marker.yy",},
     {"name":"playerJump","order":9,"path":"sounds/playerJump/playerJump.yy",},
     {"name":"sprJump","order":41,"path":"sprites/sprJump/sprJump.yy",},
+    {"name":"sprSwordEnemyNeutral","order":46,"path":"sprites/sprSwordEnemyNeutral/sprSwordEnemyNeutral.yy",},
     {"name":"sprExplosion","order":33,"path":"sprites/sprExplosion/sprExplosion.yy",},
     {"name":"sprBruteEnemy","order":14,"path":"sprites/sprBruteEnemy/sprBruteEnemy.yy",},
     {"name":"Sprite8","order":16,"path":"sprites/Sprite8/Sprite8.yy",},
@@ -120,6 +122,7 @@
     {"name":"sprBlasterEnemyCharge","order":42,"path":"sprites/sprBlasterEnemyCharge/sprBlasterEnemyCharge.yy",},
     {"name":"sprBomb","order":32,"path":"sprites/sprBomb/sprBomb.yy",},
     {"name":"sprPlayerDamaged","order":4,"path":"sprites/sprPlayerDamaged/sprPlayerDamaged.yy",},
+    {"name":"objTurretBarrel","order":7,"path":"objects/objTurretBarrel/objTurretBarrel.yy",},
     {"name":"playerPickUp","order":13,"path":"sounds/playerPickUp/playerPickUp.yy",},
   ],
 }

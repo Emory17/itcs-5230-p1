@@ -10,7 +10,7 @@ if(instance_exists(objPlayer) and bombReady == true)
 	if(distance_to_object(objPlayer) < attackDistance)
 	{
 		bombReady = false
-		alarm[0] = 60
+		alarm[0] = 100
 		instance_create_layer(x, y + 32, "Instances", objBomb)
 	}
 }

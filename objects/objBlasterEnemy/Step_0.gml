@@ -4,16 +4,16 @@
 
 if(instance_exists(objPlayer))
 {
-	if(objPlayer.x < objBlasterEnemy.x)
+	if(objPlayer.x < x)
 	{
 		image_xscale = -1
 	}
-	if(objPlayer.x > objBlasterEnemy.x)
+	if(objPlayer.x > x)
 	{
 		image_xscale = 1
 	}
 
-	if(objPlayer.y < objBlasterEnemy.y and objPlayer.x == objBlasterEnemy.x)
+	if(objPlayer.y < y and objPlayer.x == x)
 	{
 		image_xscale = -1
 	}

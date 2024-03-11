@@ -1,1 +1,4 @@
 objPlayer.totalScore += 10
+
+
+

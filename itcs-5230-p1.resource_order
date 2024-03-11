@@ -72,6 +72,7 @@
     {"name":"objDrillEnemy","order":3,"path":"objects/objDrillEnemy/objDrillEnemy.yy",},
     {"name":"objPowerUp","order":20,"path":"objects/objPowerUp/objPowerUp.yy",},
     {"name":"objBlock","order":3,"path":"objects/objBlock/objBlock.yy",},
+    {"name":"sprBruteAtk","order":49,"path":"sprites/sprBruteAtk/sprBruteAtk.yy",},
     {"name":"objFlameEnemy","order":4,"path":"objects/objFlameEnemy/objFlameEnemy.yy",},
     {"name":"LoseRoom","order":4,"path":"rooms/LoseRoom/LoseRoom.yy",},
     {"name":"objBlasterEnemy","order":1,"path":"objects/objBlasterEnemy/objBlasterEnemy.yy",},

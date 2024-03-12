@@ -6,7 +6,7 @@ event_inherited();
 shockwaveAvailable = true
 gravity = 0
 gravity_direction = 270
-
+canSwing = true;
 following_path = true
 current_path_speed = 0
 

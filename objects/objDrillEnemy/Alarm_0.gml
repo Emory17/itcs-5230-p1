@@ -6,12 +6,13 @@ if(instance_exists(objPlayer))
 		path_end()
 		if (objPlayer.x > x)
 		{
-			image_xscale = 1.5
+			image_xscale = 1
 		}
 		else
 		{
-			image_xscale = -1.5
+			image_xscale = -1
 		}
+		
 		direction = point_direction(x, y, objPlayer.x, y)
 		speed = 5
 	}

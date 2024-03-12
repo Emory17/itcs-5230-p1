@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-damagePlayer(30)
+damagePlayer(15)
 
 

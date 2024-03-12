@@ -7,7 +7,7 @@ if(instance_exists(objPlayer) and fireReady == true)
 	if(distance_to_object(objPlayer) < attackDistance)
 	{
 		fireReady = false
-		alarm[0] = 120
+		alarm[0] = 150
 		instance_create_layer(x, y+13, "Instances", objFire,
 		{
 		attatchedEnemy : self.id

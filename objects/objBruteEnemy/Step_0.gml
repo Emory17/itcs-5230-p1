@@ -1,16 +1,20 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(instance_place(x + 32, y, objPlayer) and !instance_place(x - 1, y, objPlayer) and image_xscale > 0)
+if(instance_place(x + 32, y +32, objPlayer) and !instance_place(x - 1, y, objPlayer) and image_xscale > 0 and canSwing)
 {
 	image_xscale = 1
-	instance_create_layer(x, y, "Instances", objSwordAttack)
+	instance_create_layer(x, y, "Instances", objBruteSword)
+	canSwing = false;
+	alarm[1] = 200
 }
 
-if(instance_place(x - 32, y, objPlayer) and !instance_place(x + 1, y, objPlayer) and image_xscale < 0)
+if(instance_place(x - 32, y +32, objPlayer) and !instance_place(x + 1, y, objPlayer) and image_xscale < 0 and canSwing)
 {
 	image_xscale = -1
-	instance_create_layer(x, y, "Instances", objSwordAttack)
+	instance_create_layer(x, y, "Instances", objBruteSword)
+	canSwing = false;
+	alarm[1] = 200
 }
 
 if(instance_exists(objPlayer) and shockwaveAvailable = true)
@@ -83,3 +87,9 @@ if (following_path && place_meeting(x + path_speed, y - sprite_height/2, objBloc
 		image_xscale = image_xscale * -1
 }
 
+if(canSwing){
+	sprite_index = sprBruteAtk
+}
+else{
+	sprite_index = sprBruteEnemy
+}

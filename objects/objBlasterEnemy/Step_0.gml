@@ -12,10 +12,5 @@ if(instance_exists(objPlayer))
 	{
 		image_xscale = 1
 	}
-
-	if(objPlayer.y < y and objPlayer.x == x)
-	{
-		image_xscale = -1
-	}
 }
 

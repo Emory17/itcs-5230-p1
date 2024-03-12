@@ -15,6 +15,7 @@ if(power1 = 4) {
 	image_index = 3
 }
 
+alarm[0] = 300
 
 
 

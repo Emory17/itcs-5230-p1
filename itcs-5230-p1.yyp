@@ -94,6 +94,7 @@
     {"id":{"name":"sprLaserShooterActive","path":"sprites/sprLaserShooterActive/sprLaserShooterActive.yy",},},
     {"id":{"name":"objHudControl","path":"objects/objHudControl/objHudControl.yy",},},
     {"id":{"name":"objBruteEnemy","path":"objects/objBruteEnemy/objBruteEnemy.yy",},},
+    {"id":{"name":"obj_fullscreen_control","path":"objects/obj_fullscreen_control/obj_fullscreen_control.yy",},},
     {"id":{"name":"boss_level","path":"sounds/boss_level/boss_level.yy",},},
     {"id":{"name":"win","path":"sounds/win/win.yy",},},
     {"id":{"name":"sprWall","path":"sprites/sprWall/sprWall.yy",},},

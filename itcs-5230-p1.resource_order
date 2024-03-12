@@ -70,6 +70,7 @@
     {"name":"sprLaserShooterActive","order":48,"path":"sprites/sprLaserShooterActive/sprLaserShooterActive.yy",},
     {"name":"objHudControl","order":34,"path":"objects/objHudControl/objHudControl.yy",},
     {"name":"objBruteEnemy","order":2,"path":"objects/objBruteEnemy/objBruteEnemy.yy",},
+    {"name":"obj_fullscreen_control","order":42,"path":"objects/obj_fullscreen_control/obj_fullscreen_control.yy",},
     {"name":"boss_level","order":1,"path":"sounds/boss_level/boss_level.yy",},
     {"name":"win","order":4,"path":"sounds/win/win.yy",},
     {"name":"sprWall","order":1,"path":"sprites/sprWall/sprWall.yy",},

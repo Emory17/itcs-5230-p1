@@ -10,3 +10,5 @@ instance_create_layer(x, y, "Instances", objTurretBarrel,
 	{
 		attatchedEnemy : self.id
 	})
+	
+	

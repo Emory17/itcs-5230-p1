@@ -11,6 +11,10 @@ and canAttack)
 	})
 	canAttack = false;
 	alarm[0] = 120
+	if(instance_exists(objPlayer) and distance_to_object(objPlayer) < 700)
+	{
+		audio_play_sound(playerSwordSwing, 1, false)
+	}
 }
 
 if(instance_place(x - 32, y, objPlayer) and !instance_place(x + 1, y, objPlayer) and image_xscale < 0
@@ -23,6 +27,10 @@ and canAttack)
 	})
 	canAttack = false;
 	alarm[0] = 120
+	if(instance_exists(objPlayer) and distance_to_object(objPlayer) < 700)
+	{
+		audio_play_sound(playerSwordSwing, 1, false)
+	}
 }
 
 if (place_meeting(x + path_speed, y - sprite_height/2, objBlock))

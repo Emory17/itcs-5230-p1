@@ -15,6 +15,10 @@ if(instance_exists(objPlayer))
 		
 		direction = point_direction(x, y, objPlayer.x, y)
 		speed = 5
+		if(instance_exists(objPlayer) and distance_to_object(objPlayer) < 700)
+		{
+			audio_play_sound(enemyDash, 1, false)
+		}
 	}
 	alarm[1] = 100
 	

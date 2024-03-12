@@ -1,0 +1,1 @@
+instance_create_layer(1500, 688, "Instances", objDrillEnemy)

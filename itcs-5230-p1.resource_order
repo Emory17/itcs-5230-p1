@@ -127,6 +127,7 @@
     {"name":"objLaserShooter","order":31,"path":"objects/objLaserShooter/objLaserShooter.yy",},
     {"name":"playerBlasterBig","order":5,"path":"sounds/playerBlasterBig/playerBlasterBig.yy",},
     {"name":"sprSword","order":19,"path":"sprites/sprSword/sprSword.yy",},
+    {"name":"objCredits","order":47,"path":"objects/objCredits/objCredits.yy",},
     {"name":"objTurretEnemy","order":7,"path":"objects/objTurretEnemy/objTurretEnemy.yy",},
     {"name":"objMovingBlock","order":25,"path":"objects/objMovingBlock/objMovingBlock.yy",},
     {"name":"damagePlayer","order":1,"path":"scripts/damagePlayer/damagePlayer.yy",},
@@ -152,6 +153,7 @@
     {"name":"sprPlayerDamaged","order":4,"path":"sprites/sprPlayerDamaged/sprPlayerDamaged.yy",},
     {"name":"spr_escapepod","order":53,"path":"sprites/spr_escapepod/spr_escapepod.yy",},
     {"name":"objTurretBarrel","order":7,"path":"objects/objTurretBarrel/objTurretBarrel.yy",},
+    {"name":"sprCredits","order":58,"path":"sprites/sprCredits/sprCredits.yy",},
     {"name":"playerPickUp","order":13,"path":"sounds/playerPickUp/playerPickUp.yy",},
   ],
 }

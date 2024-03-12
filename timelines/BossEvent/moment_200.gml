@@ -1,1 +1,1 @@
-instance_create_layer(700, 704, "Instances", objBlasterEnemy)
+instance_create_layer(1500, 704, "Instances", objBlasterEnemy)

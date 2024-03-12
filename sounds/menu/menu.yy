@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "menu.wav",
   "type": 1,
-  "volume": 0.74,
+  "volume": 0.8,
 }

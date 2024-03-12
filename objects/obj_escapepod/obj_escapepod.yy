@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_door",
-    "path": "sprites/spr_door/spr_door.yy",
+    "name": "spr_escapepod",
+    "path": "sprites/spr_escapepod/spr_escapepod.yy",
   },
   "spriteMaskId": null,
   "visible": true,

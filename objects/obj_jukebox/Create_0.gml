@@ -22,5 +22,13 @@ audio_stop_sound(current_song);
 current_song = menu;
 }
 
+if room = LoseRoom {
+current_song = game_over;
+}
+
+if room = WinRoom {
+current_song = win;
+}
+audio_stop_sound(current_song);
 
 audio_play_sound(current_song, 1, true);

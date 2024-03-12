@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "ship_level.wav",
   "type": 1,
-  "volume": 0.75,
+  "volume": 0.7,
 }

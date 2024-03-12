@@ -4,13 +4,16 @@
 //invinsible cheat code
 if(keyboard_check_pressed(ord("L")))
 {
-	if(objPlayer.invincible = true)
-	{
-		objPlayer.invincible = false
-	}
-	else
-	{
-		objPlayer.invincible = true
+	if(room = MainRoom || room = BossRoom)
+	{	
+		if(objPlayer.invincible = true)
+		{
+			objPlayer.invincible = false
+		}
+		else
+		{
+			objPlayer.invincible = true
+		}
 	}
 }
 
@@ -29,10 +32,10 @@ if(keyboard_check_pressed(ord("G")))
 //Go to just outside the boss room
 if(keyboard_check_pressed(ord("B")))
 {
-	
-	objPlayer.x = 14761
-	objPlayer.y = 190
-	
-	
+	if(room == MainRoom)
+	{
+		objPlayer.x = 14761
+		objPlayer.y = 190
+	}
 }
 

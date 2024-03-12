@@ -37,8 +37,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "sprBlock",
-    "path": "sprites/sprBlock/sprBlock.yy",
+    "name": "spr_tile_move",
+    "path": "sprites/spr_tile_move/spr_tile_move.yy",
   },
   "spriteMaskId": null,
   "visible": true,

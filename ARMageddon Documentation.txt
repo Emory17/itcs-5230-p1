@@ -1,5 +1,10 @@
 Documentation
 
+Emory Soper - Producer
+Ethan Fowler - Programmer
+Ben Heidinger - Designer
+Quintin Obey - Artist
+
 ARMageddon is a space sci-fi 2-D platformer that takes place on a spaceship. When you first launch the game you are presented with a title screen with the games title and instructions to continue, which then takes your to the beginning of the game. Your main goal of the game is to make your way through the level battling other robots to reach the final boss room, hopefully defeating the final boss. The game follows the basic flow of many other games allowing you to move left with the A key, right with the D key, and jump with the spacebar. The robot also comes with a default attack that punches in front of itself by left clicking. The main game mechanic for Armageddon is that when certain robots are defeated that they will drop powerups specific to there own combat abilities. These power ups must be interacted with, by clicking the E key, and can give you a variety of different powers including a laser sword, flamethrower, blaster, or drill charge attack. Furthermore the powerups replace the basic attack permenantely and can be replaced with another powerup by simply interacting with it. You are also presented with a visual HUD showing your current health, powerup, and score. The enemies and final boss of the game also have health totals not shown to the player intentionally. For testing purposes the development team also included some cheat codes to help with testing purposes as follows:
 
 - The key combination ALT and L gives the player togglable invincivility.
